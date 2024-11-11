@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ClerkProvider>
+    <ClerkProvider clerkJSVersion="5.33.0-snapshot.v6f268a33cd5361e78cafcc3cfaa30c8fb73cf4f5">
       <html lang="en">
         <body>
           <header>
