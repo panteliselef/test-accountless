@@ -5,15 +5,21 @@ import {
   SignedOut,
   UserButton,
 } from "@clerk/nextjs";
+
+import {
+  auth
+} from "@clerk/nextjs/server";
+
 import "./globals.css";
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  await auth()
   return (
-    <ClerkProvider clerkJSVersion="5.33.0-snapshot.v60e2ec707169402fe79acc7047230433dcec1f2e">
+    <ClerkProvider clerkJSVersion="5.33.0-snapshot.v5b320b96b95e4b7174c14c4abc2326f0a8efa69f">
       <html lang="en">
         <body>
           <header>
