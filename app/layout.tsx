@@ -19,7 +19,7 @@ export default async function RootLayout({
 }) {
   await auth()
   return (
-    <ClerkProvider clerkJSVersion="5.33.0-snapshot.v5b320b96b95e4b7174c14c4abc2326f0a8efa69f">
+    <ClerkProvider clerkJSVersion="5.35.0-snapshot.vedeeafdd7381a6d669d883c9837546d137f9c350">
       <html lang="en">
         <body>
           <header>

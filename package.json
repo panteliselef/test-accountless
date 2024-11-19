@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@clerk/nextjs": "6.4.0-snapshot.v5b320b96b95e4b7174c14c4abc2326f0a8efa69f",
+    "@clerk/nextjs": "6.5.0-snapshot.vedeeafdd7381a6d669d883c9837546d137f9c350",
     "next": "^15.0.2",
     "react": "19.0.0-rc-b7e21579-20241031",
     "react-dom": "19.0.0-rc-b7e21579-20241031"
